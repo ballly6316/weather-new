@@ -1,4 +1,3 @@
-FROM ubuntu
+FROM httpd
 ADD . /var/www/html
 EXPOSE 80
-CMD ["apachectl", "-D", "FOREGROUND"]
